@@ -1,3 +1,5 @@
+const root = "/WSOA3028A_2024"
+
 const menuItems = [
     {name:"Home", href: "index.html"}, 
     {name:"Blog", href: "/blogs/index.html"},
