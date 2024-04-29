@@ -1,5 +1,6 @@
 const myQuote = document.getElementById("myQuote");
 
+
 myQuote.addEventListener("mouseover", event => {
     myQuote.innerText =myQuote.innerText.toUpperCase()
 });
