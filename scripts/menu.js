@@ -1,4 +1,4 @@
-const root = "/WSOA3028A_2559188"
+const root = "/WSOA3028A_2559188";
 
 const menuItems = [
     { name: "Home", href: root + "/index.html" },
