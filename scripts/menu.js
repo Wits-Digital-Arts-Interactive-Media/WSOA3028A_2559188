@@ -2,10 +2,7 @@ const root = "/WSOA3028A_2559188"
 
 const menuItems = [
     { name: "Home", href: root + "/index.html" },
-    //Type Coercion - it is taking a const, adding it to a string and making it the string it expects
     { name: "Blogs", href: `${root}/Weekly_Blogs/Blogs.html` },
-    //back-tick syntax (template strings) `...` - allows the use of whitespace, ", ', interpolation, and substitution
-    //allows for string interpolation ${ } - automatically replaces variables and expressions with real values
     { name: "Essays", href: `${root}/Essays/Essays.html` },
     { name: "Portfolio", href: `${root}/Portfolio/Portfolio.html` },
     { name: "Design", href: `${root}/Designs/Designs.html` },
