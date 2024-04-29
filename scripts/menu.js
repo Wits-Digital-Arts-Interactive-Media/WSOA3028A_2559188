@@ -1,29 +1,28 @@
-const root = "/WSOA3028A_2024"
+const root = "/WSOA3028A_2559188"
 
 const menuItems = [
-    {name:"Home", href: "index.html"}, 
-    {name:"Blog", href: "/blogs/index.html"},
-    {name:"Portfolio", href: "/portfolio/index.html"},
-    {name:"Profile", href: "/profile/index.html"},
-    {name:"Design", href: "/design/index.html"},
+    { name: "Home", href: root + "/index.html" },
+    //Type Coercion - it is taking a const, adding it to a string and making it the string it expects
+    { name: "Blogs", href: `${root}/Weekly_Blogs/Blogs.html` },
+    //back-tick syntax (template strings) `...` - allows the use of whitespace, ", ', interpolation, and substitution
+    //allows for string interpolation ${ } - automatically replaces variables and expressions with real values
+    { name: "Essays", href: `${root}/Essays/Essays.html` },
+    { name: "Portfolio", href: `${root}/Portfolio/Portfolio.html` },
+    { name: "Design", href: `${root}/Designs/Designs.html` },
+    { name: "Profile", href: `${root}/Profile/Profile.html`},
 ]
-
-export function initialise (currentPage) {
-    const nav = document.querySelector ("header > nav")
-    const ul = document.createElement ("ul")
-    for (let menuItem of menuItems){
-        const li = document.createElement ("li")
-        if (currentPage != menuItems.name){
-            const a = document.createElement ("a")
+export function initialise(currentPage) {
+    const nav = document.querySelector("header > nav")
+    const ul = document.createElement("ul")
+    for (let menuItem of menuItems) {
+        const li = document.createElement("li")
+        if (currentPage != menuItem.name) {
+            const a = document.createElement("a")
             a.innerText = menuItem.name
-    
             a.setAttribute("href", menuItem.href)
-            a.appendChild(a)
-            ul.appendChild(li)
-        } else {
-            li.innerText = menuItem.name
-        }
-       
+            li.appendChild(a)
+        } else { li.innerText = menuItem.name }
+        ul.appendChild(li)
     }
     nav.appendChild(ul)
 }
