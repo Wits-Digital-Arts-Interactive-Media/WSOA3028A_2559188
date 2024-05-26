@@ -6,7 +6,7 @@ body {
     font-family: Aptos, sans-serif;
     background: linear-gradient(60deg, yellow , orange, purple , navy);
     background-size: cover;
-    height: 100vh;
+    height: 100%;
 }
 
 header h1 {
@@ -37,7 +37,6 @@ nav{
 
 nav ul {
 
-   
     margin-right: 40px;
 }
 
@@ -59,14 +58,3 @@ a {
     border-radius: 50px;
 }
 
-p {
-    font-size: 20px;
-    margin: 0 0 5px;
-    padding: 20px 30px;
-
-}
-
-
-img {
-    padding: 30px 50px;
-}
