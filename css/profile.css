@@ -36,7 +36,6 @@ nav{
 
 nav ul {
 
-   
     margin-right: 40px;
 }
 
@@ -61,11 +60,6 @@ a {
 p {
     font-size: 20px;
     margin: 0 0 5px;
-    padding: 20px 30px;
+    padding: 10px 20px;
 
-}
-
-
-img {
-    padding: 30px 50px;
 }
