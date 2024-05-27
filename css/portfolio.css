@@ -1,0 +1,59 @@
+html {
+    font-family: Aptos, sans-serif;
+}
+
+body {
+    font-family: Aptos, sans-serif;
+    background: linear-gradient(60deg, yellow , orange, purple , navy);
+    background-size: cover;
+    height: 100vh;
+}
+
+header h1 {
+
+    text-shadow: 4px 4px black;
+    color: #f8f7f5;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 0 5px;
+
+}
+
+h2 {
+
+    text-shadow: 4px 4px black;
+    color: #f8f7f5;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0 0 50px;
+
+}
+
+nav{
+    border-top: white solid 4px;
+    border-bottom: white solid 4px;
+    padding: 10px 20px;
+}
+
+nav ul {
+
+    margin-right: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-size: 25px;
+    color: white;
+
+}
+
+a {
+    background: purple;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
