@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: Aptos, sans-serif;
-    background: linear-gradient(60deg, yellow , orange, purple , navy);
+    background: linear-gradient(60deg, yellow, orange, purple, navy);
     background-size: cover;
     height: 100vh;
 }
@@ -29,7 +29,7 @@ h2 {
 
 }
 
-nav{
+nav {
     border-top: white solid 4px;
     border-bottom: white solid 4px;
     padding: 10px 20px;
@@ -63,4 +63,39 @@ p {
     margin: 0 0 5px;
     padding: 10px 20px;
 
+}
+
+img {
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 50px;
+    clip-path: circle(calc(50% - 50px));
+    --_p: 100px;
+    --_g1: radial-gradient(50% 50%, #ffa500, #0000);
+    --_g2: radial-gradient(50% 50%, rgba(172, 237, 9, 0.862) 90%, #0000);
+    --_g3: radial-gradient(50% 50%, #34006b 90%, #0000);
+    --_g4: radial-gradient(50% 50%, #eb2288 90%, #0000);
+    background:
+        var(--_g1) calc(20% - var(--_p)) calc(20% - var(--_p)),
+        var(--_g2) calc(80% + var(--_p)) calc(10% - var(--_p)),
+        var(--_g3) calc(80% + var(--_p)) calc(80% + var(--_p)),
+        var(--_g3) 55% calc(12% - var(--_p)),
+        var(--_g1) calc(18% - var(--_p)) calc(88% + var(--_p)),
+        var(--_g2) calc(10% - var(--_p)) calc(70% + var(--_p)),
+        var(--_g2) calc(88% + var(--_p)) 40%,
+        var(--_g1) calc(82% + var(--_p)) calc(28% - var(--_p)),
+        var(--_g4) calc(12% - var(--_p)) 30%,
+        var(--_g4) 65% calc(85% + var(--_p)),
+        var(--_g3) calc(20% - var(--_p)) calc(10% - var(--_p)),
+        var(--_g4) calc(30% - var(--_p)) calc(85% + var(--_p));
+    background-size: 15px 15px, 20px 20px, 30px 30px;
+    background-repeat: no-repeat;
+    filter: grayscale(65%);
+    transition: .5s;
+}
+
+img:hover {
+    filter: grayscale(0%);
+    clip-path: circle(50%);
+    --_p: 0px;
 }
