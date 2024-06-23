@@ -31,7 +31,7 @@ h2 {
 
 h3 {
 
-    text-shadow: 4px 4px black;
+    text-shadow: 2px 2px black;
     color: #f8f7f5;
     font-size: 25px;
     font-weight: bold;
@@ -99,4 +99,11 @@ a {
     color: white;
     padding: 10px 30px;
     border-radius: 50px;
+}
+
+article{
+    border: 10px solid rgba(100, 74, 9, 0.949);
+    background-color: burlywood;
+    padding: 20px;
+    text-align: justify;
 }
