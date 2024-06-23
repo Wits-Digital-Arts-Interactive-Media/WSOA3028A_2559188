@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: Aptos, sans-serif;
-    background: linear-gradient(-60deg, yellow , orange, purple , navy);
+    background: linear-gradient(-60deg, yellow, orange, purple, navy);
     background-size: cover;
     height: 100%;
 }
@@ -40,7 +40,7 @@ h3 {
 }
 
 
-nav{
+nav {
     border-top: white solid 4px;
     border-bottom: white solid 4px;
     padding: 10px 20px;
@@ -73,37 +73,42 @@ a {
     border-radius: 50px;
 }
 
-.blognav{
+.blognav {
     border-top: white solid 4px;
     border-bottom: white solid 4px;
     padding: 20px 30px;
     margin: 0 0 50px;
 }
 
-.blognav ul{
+.blognav ul {
     margin-right: 40px;
 }
 
-.blognav ul li{
+.blognav ul li {
     display: flex;
     margin-right: 20px;
 }
 
-.blognav ul li a{
+.blognav ul li a {
     font-size: 25px;
     color: white;
 }
 
-.blognav a{
+.blognav a {
     background: purple;
     color: white;
     padding: 10px 30px;
     border-radius: 50px;
 }
 
-article{
+article {
     border: 10px solid rgba(100, 74, 9, 0.949);
     background-color: burlywood;
     padding: 20px;
     text-align: justify;
+}
+
+img {
+    width: 50%;
+    object-fit: cover;
 }

@@ -107,3 +107,8 @@ article{
     padding: 20px;
     text-align: justify;
 }
+
+img {
+    width: 50%;
+    object-fit: cover;
+}
