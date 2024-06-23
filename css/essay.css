@@ -80,3 +80,9 @@ article {
     text-align: justify;
 
 }
+
+img {
+    width: 50%;
+    object-fit: cover;
+}
+

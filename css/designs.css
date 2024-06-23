@@ -7,6 +7,7 @@ body {
     background: linear-gradient(60deg, yellow, orange, purple, navy);
     background-size: cover;
     height: 100%;
+    display: block;
 }
 
 header h1 {
@@ -81,3 +82,7 @@ article {
 
 }
 
+img {
+    width: 50%;
+    object-fit: cover;
+}

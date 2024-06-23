@@ -96,6 +96,10 @@ img {
     background-repeat: no-repeat;
     filter: grayscale(65%);
     transition: .5s;
+
+    
+
+
 }
 
 img:hover {
@@ -103,3 +107,4 @@ img:hover {
     clip-path: circle(50%);
     --_p: 0px;
 }
+

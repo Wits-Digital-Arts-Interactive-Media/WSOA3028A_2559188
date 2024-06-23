@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: Aptos, sans-serif;
-    background: linear-gradient(60deg, yellow , orange, purple , navy);
+    background: linear-gradient(60deg, yellow, orange, purple, navy);
     background-size: cover;
     height: 100vh;
 }
@@ -29,7 +29,7 @@ h2 {
 
 }
 
-nav{
+nav {
     border-top: white solid 4px;
     border-bottom: white solid 4px;
     padding: 10px 20px;
@@ -37,7 +37,7 @@ nav{
 
 nav ul {
 
-   
+
     margin-right: 40px;
 }
 
@@ -72,22 +72,26 @@ p {
 
 
 img {
-    --b: 10px; 
+    --b: 10px;
     --g: 25px;
     --c: purple;
 
 
     padding: calc(var(--g) + var(--b));
     --_g: no-repeat linear-gradient(var(--c) 0 0);
-    background: 
-    var(--_g) var(--_i,0%) 0,
-    var(--_g) 100% var(--_i,0%),
-    var(--_g) calc(100% - var(--_i,0%)) 100%,
-    var(--_g) 0 calc(100% - var(--_i,0%));
-  background-size: var(--_i,0%) var(--b),var(--b) var(--_i,0%);
-  transition: .4s, background-position 0s;
-  cursor: pointer;
+    background:
+        var(--_g) var(--_i, 0%) 0,
+        var(--_g) 100% var(--_i, 0%),
+        var(--_g) calc(100% - var(--_i, 0%)) 100%,
+        var(--_g) 0 calc(100% - var(--_i, 0%));
+    background-size: var(--_i, 0%) var(--b), var(--b) var(--_i, 0%);
+    transition: .4s, background-position 0s;
+    cursor: pointer;
+
+    width: 30%;
+    object-fit: cover;
 }
+
 img:hover {
-  --_i: 100%;
+    --_i: 100%;
 }

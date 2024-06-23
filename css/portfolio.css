@@ -7,6 +7,7 @@ body {
     background: linear-gradient(-120deg, yellow , orange, purple , navy);
     background-size: cover;
     height: 100vh;
+    
 }
 
 header h1 {
@@ -77,4 +78,9 @@ section {
     background-color: burlywood;
     padding: 20px;
     text-align: justify;
+}
+
+img {
+    width: 50%;
+    object-fit: cover;
 }
