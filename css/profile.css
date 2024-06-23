@@ -72,7 +72,7 @@ p {
 img {
     border-radius: 50%;
     cursor: pointer;
-    padding: 50px;
+    padding: 40px;
     clip-path: circle(calc(50% - 50px));
     --_p: 100px;
     --_g1: radial-gradient(50% 50%, #ffa500, #0000);

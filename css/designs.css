@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: Aptos, sans-serif;
-    background: linear-gradient(60deg, yellow , orange, purple , navy);
+    background: linear-gradient(60deg, yellow, orange, purple, navy);
     background-size: cover;
     height: 100%;
 }
@@ -40,7 +40,7 @@ h3 {
 }
 
 
-nav{
+nav {
     border-top: white solid 4px;
     border-bottom: white solid 4px;
     padding: 10px 20px;
@@ -72,3 +72,12 @@ a {
     padding: 10px 30px;
     border-radius: 50px;
 }
+
+article {
+    border: 10px solid rgba(100, 74, 9, 0.949);
+    background-color: burlywood;
+    padding: 20px;
+    text-align: justify;
+
+}
+
