@@ -1,10 +1,7 @@
 
-let length;
-let width;
+let length = 3;
+let width = 3;
 
-function area() {
-  return length * width;
-
-}
+let area = length * width;
 
 
