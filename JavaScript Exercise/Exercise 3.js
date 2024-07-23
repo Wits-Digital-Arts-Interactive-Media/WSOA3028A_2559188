@@ -5,7 +5,8 @@ function Ex3(){
     let num1 = Math.floor(Math.random()*51);
     let num2 = Math.floor(Math.random()*51);
 
-    if (num1 ===50 || num2 === 50 || num1 + num2 === 50){
+    //make an "if" statement to check all three of these conditions
+    if (num1 === 50 || num2 === 50 || num1 + num2 === 50){
         return true; 
         } else {
          return false;
